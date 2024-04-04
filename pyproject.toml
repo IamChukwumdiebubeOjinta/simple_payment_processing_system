@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "payment-processing"
+version = "0.1.0"
+description = "A system for handling payments info correctly"
+authors = ["bube"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+pydantic = "^2.6.4"
+uvicorn = "^0.29.0"
+pytest = "^8.1.1"
+pydantic-extra-types = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
